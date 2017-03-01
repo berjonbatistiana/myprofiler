@@ -1,0 +1,52 @@
+@import 'colors';
+
+.nav-tabs{
+	background-color: $block-primary;
+	radius: 4px 4px 0 0;
+}
+
+.breadcrumb.profile-info{
+	background-color: $block-primary;
+}
+
+.jumbotron.header{
+	background-color: $block-primary;
+	margin-bottom: 0px;
+	border-radius: 4px 4px 0 0;
+	color: $font-primary;
+	font-family: 'VT323';
+}
+
+.jumbotron.header>.owner-name, .header-title{
+	font-size: 72px;
+}
+
+.nav-tabs>.active{
+	background-color: $block-tertiary;
+}
+
+.nav-tabs>li {
+	background-color: $block-secondary;
+	border-radius: 7px 7px 0 0;	// larger radius because background color needs to be inside
+}
+
+.nav-tabs>li>a{
+	border: 1px solid $block-primary;
+	border-radius: 4px 4px 0 0;	//smaller radius because this is outside the background
+}
+
+#header{
+	background-color: $block-primary;
+	position: fixed;
+}
+
+.nav.navbar-nav>li>a:hover{
+	background: $block-primary;
+	color: $font-primary;
+	radius: 4px 4px 0 0;
+
+}
+
+body {
+  padding-top: 50px;
+}

@@ -1,0 +1,21 @@
+@import 'colors';
+
+.signup-input-addon{
+	min-width: 145px;
+	text-align: right;
+}
+
+.signup-input-group{
+	margin-bottom: 10px;
+}
+
+.password-input-group{
+	margin-bottom: 0px;
+}
+
+.password.hint{
+	font-size: 11px;
+    color: #66696a;
+    padding: 0;
+    text-align: right;
+}
